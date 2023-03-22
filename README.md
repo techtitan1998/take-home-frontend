@@ -3,7 +3,7 @@
 To get started, clone the repo and install the dependencies:
 
 git clone [https://github.com/your-username/react-app.git]
-cd app-name  
+cd app-name  (change directory)  
 npm install
 Running the App
 
