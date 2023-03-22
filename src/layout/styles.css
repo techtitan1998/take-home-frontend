@@ -1,0 +1,73 @@
+.site-layout {
+ margin-left: 250px;
+}
+.site-content {
+ padding: 20px 30px;
+}
+.siderbar-logo {
+ width: 76px;
+ margin: 0 auto;
+ display: flex;
+ margin-top: 20px;
+ padding-bottom: 20px;
+}
+.ant-layout .ant-layout-sider {
+ background-color: white;
+}
+.togglebtn {
+ display: none;
+}
+.header-toggle-btn {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+}
+.sidebar-profilebtn {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ height: 71px;
+ padding: 7px 12px;
+}
+
+.sidebar-profilecontent {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 10px;
+}
+.sidebar-profiletext {
+ margin: 0px !important;
+ padding: 0px !important;
+}
+.title {
+ font-size: 16px !important;
+ font-weight: 500 !important;
+ color: rgb(17, 24, 39);
+}
+.designation {
+ color: rgb(17, 24, 39);
+ font-size: 14px !important;
+ margin-top: -6px !important;
+}
+.ant-dropdown-menu-title-content {
+ background-color: #ffffff !important;
+}
+.ant-dropdown-menu {
+ width: 150px;
+ left: 100px;
+ top: -20px;
+}
+@media screen and (max-width: 768px) {
+ .togglebtn {
+  display: block;
+ }
+ .ant-layout .ant-layout-sider {
+  display: none;
+ }
+ .site-layout {
+  margin-left: 0px;
+ }
+}

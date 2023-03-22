@@ -1,0 +1,44 @@
+.custom-modal {
+  z-index: 9999 !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  min-width: 250px !important;
+  min-height: 100px !important;
+  padding: 15px !important;
+  border-radius: 10px !important;
+  transform: translate(-50%, -50%) !important;
+  background: #fff !important;
+  width: 800px;
+}
+@media only screen and (max-width: 815px) {
+  .custom-modal {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .custom-modal {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .custom-modal {
+    width: 300px;
+  }
+}
+.custom-modal .cross-icon {
+  position: absolute;
+  right: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+.bg {
+  z-index: 9998 !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
