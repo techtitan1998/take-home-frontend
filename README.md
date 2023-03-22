@@ -7,6 +7,8 @@ cd app-name  (change directory)
 npm install
 Running the App
 
+### Before start the app place the .env file in root folder:
+
 ### To run the app in development mode, use:
 
 npm start
